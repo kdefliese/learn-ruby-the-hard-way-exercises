@@ -1,5 +1,8 @@
+# creating variables from the values entered as the arguments
 user_name = ARGV.first
-prompt = '>  '
+cat_name = ARGV.second
+# changed prompt
+prompt = 'enter answer here:  '
 
 puts "Hi #{user_name}."
 puts "I'd like to ask you a few questions."

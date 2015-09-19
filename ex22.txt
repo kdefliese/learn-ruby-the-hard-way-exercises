@@ -1,0 +1,38 @@
+puts - prints a line and a new line at the end
+# - hash or pound, creates a comment
+% - modulus, does the remainder
+#{string} - string interpolation, substitutes a variable into a string
+= - assignment
+== - tests for the same value
+string - alpha characters
+integer - whole number
+floating point number - has a decimal point
+print - prints without adding a new line at the end
+format string - uses %{} to make multiple substitutions
+\ - used to escape characters
+\n - new line
+""" - creates a multi-line string
+gets.chomp - takes input from the command line and chomps off the new line at the end of it
+gets.chomp.to_i - converts user input into an integer
+.to_f - converts user input to a floating point number
+ARGV - argument variable, hold the arguments you pass to your script from the command line
+$stdin - ??
+open(filename) - opens a file
+file.close() - closes the file
+file.read() - reads the file
+file.readline(x) - reads the specified line of the file
+file.truncate() - empties the file
+write('stuff') - writes 'stuff' to the file
+'w' parameter - automatically truncates the file for you
+echo 'string' > file.txt - creates file with that string in it in the command line
+cat filename - prints out file in command line
+file.exist? - checks to see if the file exists
+def - used to define a function
+arg - argument passed into a function
+seek(x) - goes to the location of the specified byte
++= = shorthand for x = x + y
+return - returns the specified value from a function
+
+
+
+
